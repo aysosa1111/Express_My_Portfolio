@@ -1,28 +1,33 @@
 <!-- File name: Express My Portfolio
-Student's name: Ayse Osanmaz
-StudentID: 301090678
-Date: 04 October 2023 -->
+     Student's name: Ayse Osanmaz
+     StudentID: 301090678
+     Date: 04 October 2023 -->
 
+<!-- Including header and navigation components -->
 <%- include ('partials/header.ejs') %>
 <%- include ('partials/nav.ejs') %>
 
 <div class="homepage" style="background-image: url('img/mission bg.JPG');">
   <div class="container">
+    <!-- This div contains the main content of the homepage -->
+
+    <!-- Overlay text for the first section -->
     <div class="overlay-text">
       <div class="overlay-text-box">
+        <!-- Heading for the first section -->
         <h3>In the realm of code, every bug is an opportunity for growth.</h3>
-       
       </div>
     </div>
+
+    <!-- Overlay text for the second section -->
     <div class="overlay-text2">
       <div class="overlay-text-box2">
+        <!-- Heading for the second section -->
         <h2>Welcome to the world of software, where every error is a lesson and every success is a celebration.</h2>
-      <div>
-    </div>
-  </div>
-</div>
+      </div>
+    </div> <!-- End of overlay-text2 div -->
+  </div> <!-- End of container div -->
+</div> <!-- End of homepage div -->
 
-
-
-
+<!-- Including footer component -->
 <%- include ('partials/footer.ejs') %>
