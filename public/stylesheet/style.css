@@ -1,0 +1,56 @@
+/*
+File name: Express My Portfolio
+Student's name: Ayse Osanmaz
+StudentID: 301090678
+Date: 04 October 2023
+*/
+
+.homepage {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: #f0f0f0; /* Change background color */
+}
+
+.overlay-text {
+  color: rgb(192, 193, 207); /* Change text color to brown */
+  position: absolute;
+  top: 30%; /* Adjust vertical position */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  width: 80%; /* Adjust the width */
+  background-color: rgba(255, 255, 255, 0); /* Transparent background */
+  padding: 0; /* No padding */
+  border: none; /* Remove border */
+  box-shadow: none; /* Remove box shadow */
+  display: inline; /* Make it an inline element */
+}
+
+.overlay-text-box {
+  background-color: rgba(255, 255, 255, 0); /* Transparent background */
+  padding: 0; /* No padding */
+  border: none; /* Remove border */
+  box-shadow: none; /* Remove box shadow */
+  display: inline; /* Make it an inline element */
+}
+
+.overlay-text2 {
+  color: #ff6600; /* Change text color to orange */
+  position: absolute;
+  top: 70%; /* Adjust vertical position */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  width: 80%; /* Adjust the width */
+  background-color: rgba(255, 255, 255, 0); /* Transparent background */
+  padding: 0; /* No padding */
+  border: none; /* Remove border */
+  box-shadow: none; /* Remove box shadow */
+  display: inline; /* Make it an inline element */
+}
+
+.card h-100 {
+  padding: 20px; /* Reduce padding for cards */
+  background-color: #f0f0f0; /* Change card background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a box shadow to cards */
+}

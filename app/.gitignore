@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+
+# Dependency directories
+jspm_packages/
+packages/
+
+# Logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled binary addons (for Node.js)
+build/
+
+# Environment variables
+.env
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Output of 'yarn build'
+/dist/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
